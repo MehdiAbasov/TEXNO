@@ -190,7 +190,12 @@ img {
 .hero img {
     object-fit: cover;
     height: 98vh;
+}
 
+@media (max-width:350px) {
+    .hero img{
+        height: 20vh;
+    }
 }
 
 /* hero section */
